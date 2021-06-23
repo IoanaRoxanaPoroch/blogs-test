@@ -1,0 +1,26 @@
+.NavbarItems {
+  background: rgb(210, 232, 236);
+  height: 60px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.nav-links {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  background-color: #b8bdf5;
+  color: blue;
+}

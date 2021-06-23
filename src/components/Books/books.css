@@ -1,0 +1,9 @@
+.desText {
+  font-family: serif;
+  font-size: medium;
+  color: chocolate;
+  border: 1px solid gray;
+  padding: 8px;
+  margin-top: 10px;
+  text-align: left;
+}

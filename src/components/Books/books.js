@@ -6,7 +6,7 @@ import "./books.css";
 class Books extends Component {
   constructor(props) {
     super(props);
-    this.state = { title: "La vie en rose", author: "", nr: 0, articles: [] };
+    this.state = { title: "La vie en rose", author: [], nr: 0, articles: [] };
   }
 
   //
@@ -36,17 +36,25 @@ class Books extends Component {
         <div>
           <LifeStyle />
           <h1>Recomandation of books</h1>
-          <h2>
-            First book is {this.state.title} by {this.state.author}{" "}
-          </h2>{" "}
           <br />
-          <p>
-            {this.state.articles.map((item) => (
-              <ul>
-                <li className="desText">{item.volumeInfo.description}</li>
-              </ul>
-            ))}
-          </p>
+        </div>
+        <div>
+          {this.state.articles.map((item) => (
+            <>
+              <div className="artDesign">
+                <img
+                  src={item.volumeInfo.imageLinks.smallThumbnail}
+                  alt=""
+                  className="image"
+                />
+                <div className="text">{item.volumeInfo.description}</div>
+                <div className="author bottomRight">
+                  {" "}
+                  by {item.volumeInfo.authors}
+                </div>
+              </div>
+            </>
+          ))}
         </div>
       </>
     );

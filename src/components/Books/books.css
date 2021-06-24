@@ -1,9 +1,43 @@
-.desText {
+.artDesign {
+  position: relative;
   font-family: serif;
   font-size: medium;
-  color: chocolate;
-  border: 1px solid gray;
-  padding: 8px;
+  /* border: 1px solid gray; */
   margin-top: 10px;
   text-align: left;
+  height: 230px;
+}
+
+.image {
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: baseline;
+  padding: 1px 50px 1px 50px;
+  float: left;
+}
+
+.author {
+  color: gray;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  padding: 20px 30px 1px 20px;
+  text-align: right;
+}
+
+.text {
+  position: absolute;
+  font-family: serif;
+  font-size: medium;
+  color: rgb(123, 104, 238);
+  margin-top: 10px;
+  display: inline;
+  margin-top: 10px;
+  text-indent: 30px;
+}
+
+.bottomRight {
+  position: absolute;
+  bottom: 50px;
+  right: 16px;
+  font-size: 18px;
 }

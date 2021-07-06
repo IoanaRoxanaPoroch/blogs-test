@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import LifeStyle from "../LifeStyle/Lifestyle";
+import SidebarMenu from "../LifeStyle/SidebarMenu";
 
 class travel extends Component {
   constructor(props) {
@@ -12,9 +12,9 @@ class travel extends Component {
   render() {
     return (
       <div>
+          <SidebarMenu />
         <h1>Travel page</h1>
         <p>First recomandation is {this.state.location}</p>
-        <LifeStyle />
       </div>
     );
   }

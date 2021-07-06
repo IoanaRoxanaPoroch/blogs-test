@@ -1,0 +1,9 @@
+.backBtn {
+  top: 6.5%;
+  left: 1%;
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  z-index: 2;
+  background: rgb(213, 222, 223);
+}

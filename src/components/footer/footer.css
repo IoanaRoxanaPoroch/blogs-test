@@ -1,0 +1,25 @@
+.footer {
+  background-color: cadetblue;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  height: 70px;
+}
+.footer p {
+  text-align: justify;
+  text-indent: 20px;
+  color: rgb(209, 209, 209);
+  padding: 15px;
+  font-style: italic;
+  font-size: medium;
+}
+
+.footer h5 {
+  text-align: right;
+  text-indent: 20px;
+  color: rgb(167, 167, 167);
+  padding-right: 20px;
+  bottom: 2px;
+}

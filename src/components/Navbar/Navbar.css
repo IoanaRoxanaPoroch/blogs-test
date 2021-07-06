@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .NavbarItems {
   background: rgb(210, 232, 236);
   height: 60px;
@@ -23,4 +27,110 @@
 .nav-links:hover {
   background-color: #b8bdf5;
   color: blue;
+}
+
+@media (min-width: 1281px) {
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .NavbarItems {
+    background: pink;
+  }
+
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    width: 10%;
+    justify-content: right;
+  }
+
+  .text-nav {
+    padding: 14px 16px;
+  }
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .NavbarItems {
+    background: yellow;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+
+  .nav-menu {
+    float: left;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    width: 10%;
+    justify-content: space-around;
+  }
+
+  .text-nav {
+    padding: 14px 16px;
+  }
+
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS */
+  .NavbarItems {
+    background: violet;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+
+  .nav-menu {
+    float: left;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    width: 10%;
+    justify-content: space-around;
+  }
+
+  .text-nav {
+    padding: 14px 16px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
 }

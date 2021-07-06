@@ -21,6 +21,7 @@
   left: -100%;
   transition: 850ms;
   font-size: 1.2rem;
+  z-index: 999;
 }
 
 .side-menu.active {

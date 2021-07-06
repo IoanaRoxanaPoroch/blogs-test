@@ -9,7 +9,7 @@ class Navbar extends Component {
         <ul className="nav-menu">
           {(MenuItems || []).map((item, index) => {
             return (
-              <li key={index}>
+              <li key={index} className="text-nav">
                 <a className={item.cName} href={item.url}>
                   {item.title}
                 </a>

@@ -1,0 +1,10 @@
+.imageDetail {
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: baseline;
+  padding: 1px 5px 1px 50px;
+  float: left;
+  height: auto;
+  width: auto;
+}

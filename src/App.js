@@ -10,6 +10,8 @@ import LifeStyle from "./components/LifeStyle/Lifestyle";
 import movies from "./components/Movies/movies";
 import Navbar from "./components/Navbar/Navbar";
 import travel from "./components/Travel/travel";
+import Details from "./components/Books/DetailsBook";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -26,9 +28,11 @@ function App() {
             <Route path="/books" component={books}></Route>
             <Route path="/movies" component={movies}></Route>
             <Route path="/travel" component={travel}></Route>
+            <Route path="/details" component={Details}></Route>
           </Switch>
         </div>
       </Router>
+      <Footer></Footer>
     </>
   );
 }

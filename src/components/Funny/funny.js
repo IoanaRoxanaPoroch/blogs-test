@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import SidebarMenu from "../LifeStyle/SidebarMenu";
 
 class Funny extends Component {
   constructor(props) {
@@ -13,6 +14,7 @@ class Funny extends Component {
   render() {
     return (
       <div>
+        <SidebarMenu />
         <h1>It's funny time</h1>
         <br />
         <p>{this.state.text}</p>
